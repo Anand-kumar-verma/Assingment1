@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --font:Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    background-color: black;
+    width: 100%;
+    color: white;
+    gap: 1rem;
+    font-size: .8rem;
+    text-transform: uppercase;
+    font-family:var(--font);
+}
+#anatytics-tools{
+    color: yellow;
+}
+.table-container{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table-content{
+    padding-top: 1rem;
+    width: 75%;
+    height: 100%;
+    background-color: rgba(215, 215, 215);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    font-size:.9rem;
+    padding-left: 1rem;
+    font-family:var(--font);
+    border-radius: .5rem;
+}
+.hero-section{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    position: absolute;
+    flex-wrap: wrap;
+}
+.hero-button-para{
+    font-family: var(--font);
+}
+.main-box{
+    width: 20rem;
+    height: 20rem;
+    background-color: rgba(250, 213, 188, 0.2);
+    margin-left: 15rem;
+    position: relative;
+    border-radius: 2rem;
+    z-index: -100;
+    /* z-index: -100; */
+}
+.side-box{
+    position: absolute;
+    text-align: center;
+    background-color: rgb(228, 228, 237);
+    font-style: var(--font);
+    border-radius: .4rem;
+    padding: .5rem;
+    box-shadow: .1px .1px 10px rgb(241, 233, 233);
+}
+.side-box1{
+    top: 2rem;
+    left: -2rem;
+}
+.side-box2{
+    top: 4rem;
+    right: -4rem;
+}
+.side-box1{
+    top: 2rem;
+    left: -2rem;
+}
+.side-para2{
+    font-size: .8rem;
+}
+.side-para1{
+    font-size: .9rem;
+    font-family: var(--font);
+    color: green;
+}
+.side-box3{
+    bottom:-1.5rem;
+    right: 2rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3.5rem;
+    border-radius: 2rem;
+}
+.circle-container{
+    position: relative;
+    display: flex;
+    background-color: rgb(228, 228, 237);
+    font-style: var(--font);
+    border-radius: .4rem;
+    margin-left: 4rem;
+}
+.para-cirle{
+    margin-left: 2rem;
+}
+.circle{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+}
+.circle img{
+   border-radius: 100%;
+
+}
+.c1{
+    left: -2rem;
+    background-color:blue;
+}
+.c2{
+    left: 0rem;
+    background-color: blueviolet;
+}
+.c3{
+    left:2rem;
+    background-color: rgb(172, 255, 127);
+}
+.c4{
+    left: 4rem;
+    background-color: rgb(214, 23, 13);
+}
+.c5{
+    left: 6rem;
+    background-color: rgba(250, 213, 188);
+    color: green;
+}
+.hero-image{
+    width: 20rem;
+    height: 20rem;
+    background-color:  rgba(250, 213, 188,.5);
+    position: absolute;
+    transform: rotate(20deg);
+    border-radius: 3rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -100;
+}
+.box{
+    transform: rotate(-20deg);
+    z-index: 100;
+    position: absolute;
+}
+.box img{
+    border-radius: 100%;
+}
+.hero-para{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    
+}
+.para1{
+    font-style:var(--font);
+    font-size: 2.2em;
+    font-weight: bold;
+    display: flex;
+    gap: .5rem;
+}
+.para2,.para3{
+    font-family: var(--font);
+    font-size: 2.5em;
+    font-weight: bold;
+    display: flex;
+    gap: .5rem;
+}
+.green{
+    color: green;
+}
+.green-light{
+    color: rgb(63, 170, 63);
+}
+.button-div{
+    margin-top: 1rem;
+    display: flex;
+    height: 2rem;
+    gap: 3rem;
+    
+}
+.button-div button{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: none;
+    border-radius: .2rem;
+}
+.btn-started{
+    background-color: rgb(44, 182, 44);
+    color: white;
+}
+.btn-free{
+    background-color: rgb(218, 218, 247);
+    color: green;
+}
+.feature{
+    display: flex;
+    gap: 1rem;
+    margin-left: -1rem;
+    margin-top: 2em;
+}
+.feature-img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
